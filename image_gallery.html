@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS</title>
+	<link rel="stylesheet" type="text/css" href="image_gallery.css">
+</head>
+<style>
+	body{ margin:0px }
+
+.container{display: flex; flex-wrap: wrap; justify-content: center;}
+
+h1{ font-family: fantasy; font-size: 3em;
+border-bottom: 3px solid green; border-right: 3px solid green; width: 400px;
+text-align: center; box-shadow: 4px 4px 5px #882588; margin-top: 10px;}
+
+img{width: 450px; height: 300px; margin: 10px; transition: all 1s;}
+
+img:hover { transform:scale(1.1); }
+</style>
+<body>
+	<h1>Life in the Wild</h1>
+	<div class="container">
+		<img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg">
+		<img src="https://static.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg">
+		<img src="https://static.pexels.com/photos/213399/pexels-photo-213399.jpeg">
+		<img src="https://static.pexels.com/photos/158471/ibis-bird-red-animals-158471.jpeg">
+		<img src="https://static.pexels.com/photos/133459/pexels-photo-133459.jpeg">
+		<img src="https://static.pexels.com/photos/50988/ape-berber-monkeys-mammal-affchen-50988.jpeg">
+		
+	</div>
+
+
+</body>
+</html>
